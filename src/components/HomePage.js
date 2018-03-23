@@ -52,11 +52,6 @@ class HomePage extends Component {
   }
 
   render() {
-    const AdminViewComponent = () => (<AdminView 
-                                        productList={this.state.productList} 
-                                        addNewProductToProductList={this.addNewProductToProductList} 
-                                        deleteItem={this.deleteItem} />)
-    const ShopViewComponent = () => (<ShopView productList={this.state.productList} />)
 
     return (
       <div>
